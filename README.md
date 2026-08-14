@@ -130,6 +130,6 @@ Add sound effects and animations
 
 👩‍💻 Author
 
-Alina Chaudhary
+Alina Fatima
 
 Frontend Developer / CS Student
