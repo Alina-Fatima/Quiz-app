@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="screen-active" id="start-screen">
+            <h2>Quiz Time!</h2>
+            <p>Test Your knowledge with these fun questions</p>
+            <button id="quiz-strt-btn">Start Quiz</button>
+        </div>
+
+        <div class="screen" id="quiz-screen">
+            
+            <div class="quiz-header">
+                <h2 id="qstn-text">There will be Question</h2>
+                <div class="quiz-info">
+                    <p>Question <span id="current-qstn">0</span> of <span id="total-qstns">5</span></p>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+            </div>
+
+            <div class="answers-container" id="answers-container">
+                <!-- Answer buttons will be inserted here from our js code later -->
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+        
+         <div class="screen" id="result-screen">
+                <h2>Quiz Result</h2>
+
+                <div class="result-info">
+                    <p>you scored <span id="final-score">0</span> out of <span id="maximum-score">5</span></p>
+
+                    <div id="result-message">Good Job</div>
+                </div>
+                
+                <button id="restart-btn">restart-Quiz</button>
+         </div>
+
+    </div>
+</body>
+</html>
